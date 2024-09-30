@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(245, 233, 216);
+}
+
+fieldset {
+    background-attachment: fixed;
+    background-color: rgb(248, 242, 217);
+    border: 7px solid rgb(241, 135, 7);
+    /* Added solid to define border style */
+    border-left-color: rgb(0, 255, 0);
+    /* Example of changing the side border color */
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: rgb(34, 34, 85);
+    /* Dark blue background */
+    color: white;
+    /* White text color */
+    font-size: 16px;
+    /* Font size */
+    padding: 10px 20px;
+    /* Padding (top/bottom and left/right) */
+    border: none;
+    /* Remove default border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s, box-shadow 0.3s;
+    /* Smooth transition */
+
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(21, 255, 0);
+    /* Lighter shade on hover */
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+    /* Enhanced shadow on hover */
+}
+
+
+legend {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(243, 49, 198);
+    font-style: oblique;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 48px;
+    /* Large font size */
+    font-family: 'Arial', sans-serif;
+    /* Use a clean font */
+    color: white;
+    /* Text color (white) */
+    text-transform: uppercase;
+    /* Make the text uppercase */
+    letter-spacing: 5px;
+    /* Add some space between the letters */
+    text-align: center;
+    /* Center the title */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Add a shadow for depth */
+    background-color: rgb(73, 243, 87);
+    /* Dark background color (dark blue) */
+    padding: 20px;
+    /* Padding around the text */
+    border-radius: 10px;
+    /* Rounded corners for a softer look */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    /* Shadow around the box */
+}
